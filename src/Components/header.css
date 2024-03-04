@@ -1,0 +1,30 @@
+.header-container {
+  align-items: center;
+  background-color: rgba(203, 175, 175, 0.396);
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+  width: 2800px;
+}
+
+.img {
+  border-radius: 50%;
+  height: 40px;
+  margin: 20px;
+  width: 40px;
+
+}
+
+.name {
+  border-radius: 50%;
+  height: 40px;
+  margin: 20px;
+  width: 40px;
+}
+
+.score {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}

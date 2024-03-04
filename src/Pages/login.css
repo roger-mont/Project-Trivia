@@ -1,0 +1,142 @@
+.paginatoda {
+  background-color: rgba(108, 147, 114, 0.46);
+  display: flex;
+  height: 825px;
+  justify-content: center;
+  width: 100vw;
+}
+
+.master-container-login {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  justify-content: center;
+  text-align: center;
+  width: 450px;
+
+  /* background-color: rgba(127, 61, 127, 0.46) */
+}
+
+.login-container {
+  align-items: center;
+  background-color: rgb(183, 183, 215);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.trivia-content {
+  background-color: rgba(96, 79, 96, 0.839);
+  border-radius: 50%;
+  height: 170px;
+  left: 38%;
+  margin: 1px;
+  padding: 1px;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  width: 170px;
+  z-index: 2;
+
+}
+
+.trivia-text {
+  color: rgb(65, 25, 65);
+  font-size: 1.7em;
+  left: -2%;
+  position: relative;
+  top: 27%;
+}
+
+.login-containt {
+  align-items: center;
+  background-color: rgb(65, 25, 65);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+}
+
+.email-input {
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+
+}
+
+.name-input {
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.play-button {
+  background-color: #8d6464;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.play-button:hover {
+  background-color: #c08d8d;
+}
+
+.settings-button {
+  background-color: #8d6464;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.settings-button:hover {
+  background-color: #c08d8d;
+}
+
+.rodape {
+  align-items: center;
+  background-color: rgba(108, 147, 114, 0.268);
+  color: rgb(110, 105, 99);
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100vw;
+}

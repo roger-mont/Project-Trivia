@@ -1,0 +1,31 @@
+.master-container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: flex-end;
+  text-align: center;
+  width: 50vw;
+
+  /* background-color: rgb(198, 164, 198) */
+}
+
+.choice-buttons {
+  align-items: center;
+  background-color: #8d6464;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.8em;
+  height: 51px;
+  justify-content: center;
+  margin: 5px;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  width: 210px;
+}
+
+.choice-buttons:hover {
+  background-color: #c08d8d;
+}
